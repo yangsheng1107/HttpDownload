@@ -8,7 +8,6 @@ import java.io.OutputStream;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
@@ -128,7 +127,7 @@ public class MainActivity extends Activity {
 				// Http connect success.
 				HttpResponse httpResponse;
 				httpResponse = httpClient.execute(httpGet);
-				if (httpResponse.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
+				if (httpResponse.getStatusLine().getStatusCode() == 200) {
 					HttpEntity httpEntity = httpResponse.getEntity();
 					inputStream = httpEntity.getContent();
 					lengthOfFile = httpEntity.getContentLength();

@@ -4,12 +4,12 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-
-    <Button
-        android:id="@+id/downloadButton"
+    <Button 
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/main_activity_download_btn" />
+        android:text="Click To Download File"
+        android:id="@+id/downloadButton"
+    />
      
     <TextView 
         android:layout_width="fill_parent"
