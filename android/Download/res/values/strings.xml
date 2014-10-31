@@ -4,7 +4,15 @@
     <string name="app_name">Download</string>
 	<string name="menu_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+
+    <!-- MainActivity activity -->
     <string name="main_activity_download_btn">Click To Download File</string>
+    <string name="main_activity_download_text">Downloading file path : </string> 
+    <string name="main_activity_download_progress_dialog_context">Downloading file. Please wait&#8230;</string>
+    <string name="main_activity_notification_title">Done</string>
+    <string name="main_activity_notification_text">Download file success</string>
+
+    <!-- DetailActivity activity -->
     <string name="detail_activity_image_description">Image load from server</string>
 
 </resources>

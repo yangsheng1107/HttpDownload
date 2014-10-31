@@ -15,21 +15,23 @@ public final class R {
         public static final int ic_stat_notification=0x7f020001;
     }
     public static final class id {
-        public static final int ImageView1=0x7f070000;
-        public static final int downloadButton=0x7f070001;
-        public static final int menu_settings=0x7f070003;
-        public static final int messageText=0x7f070002;
+        public static final int ImageView1=0x7f060000;
+        public static final int downloadButton=0x7f060001;
+        public static final int messageText=0x7f060002;
     }
     public static final class layout {
         public static final int activity_detail=0x7f030000;
         public static final int activity_main=0x7f030001;
     }
-    public static final class menu {
-        public static final int activity_upload_to_server=0x7f060000;
-    }
     public static final class string {
         public static final int app_name=0x7f040000;
+        public static final int detail_activity_image_description=0x7f040005;
         public static final int hello_world=0x7f040002;
+        public static final int main_activity_download_btn=0x7f040003;
+        public static final int main_activity_download_progress_dialog_context=0x7f040006;
+        public static final int main_activity_download_text=0x7f040004;
+        public static final int main_activity_notification_text=0x7f040008;
+        public static final int main_activity_notification_title=0x7f040007;
         public static final int menu_settings=0x7f040001;
     }
     public static final class style {
